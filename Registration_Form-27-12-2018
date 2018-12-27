@@ -331,7 +331,7 @@
                                                       </apex:outputPanel>
                                                    </td>
                                                    <td>
-                                                      <apex:input type="text" value="{!apList.modelnumber}" styleClass="form-control" html-placeholder="Philips Model Number"/>
+                                                      <apex:input type="text" value="{!apList.modelnumber}" styleClass="form-control" html-placeholder=" Model Number"/>
                                                    </td>
                                                    <td>
                                                       <apex:input type="text" value="{!apList.serialnumber}" styleClass="form-control" html-placeholder="Serial Number"/>
@@ -461,7 +461,7 @@
       <!--close footer section-->
    </body>
 </apex:page>
-****************************************************ApexController**********************************
+************************************apexcontroller****************************************************************
 public class Registeration_form {
 
     public String cusfirstname {
